@@ -1,0 +1,200 @@
+/*------------------------------------------------------------------------
+# Palettes
+------------------------------------------------------------------------*/
+.palette-primary {
+	background: $palette-primary_neutral-color;
+	color: $text-contrast-palette-primary-neutral-color;
+
+	/*-----------------------------------------------
+	## Headings
+	-----------------------------------------------*/
+	.site-title a {
+		color: $palette-primary_1;
+	}
+	.site-title a:hover,
+	.site-title a:focus {
+		color: $palette-primary_4;
+	}
+
+	/*-----------------------------------------------
+	## Links
+	-----------------------------------------------*/
+	a,
+	.link-primary {
+		color: $palette-primary_1;
+	}
+	.link-secondary {
+		color: $palette-primary_2;
+	}
+	.pager li > a {
+		background-color: $palette-primary_neutral-color;
+		color: $palette-primary_1;
+	}
+
+	/*-----------------------------------------------
+	## Elements
+	-----------------------------------------------*/
+	hr {
+		border-top: 1px solid $palette-primary_3;
+	}
+	blockquote,
+	.mod-blockquote {
+		border-left: 5px solid $palette-primary_4;
+	}
+
+	/*-----------------------------------------------
+	## Nav
+	-----------------------------------------------*/
+	#primary-navbar a,
+	#secondary-menu a,
+	#tertiary-menu a {
+		color: $palette-primary_1;
+	}
+	#menu-social-items a,
+	#footer-center-menu a {
+		color: $text-contrast-palette-primary_5;
+	}
+	#primary-navbar,
+	#secondary-menu,
+	#tertiary-menu,
+	#menu-social-items,
+	#footer-center-menu {
+		.current-menu-item a,
+		a:hover,
+		a:focus {
+			color: $palette-primary_4;
+		}
+	}
+	#primary-navbar .current-menu-item a {
+		background: none;
+	}
+	#primary-navbar .current-menu-parent > a {
+		background: none;
+		color: $palette-primary_1;
+	}
+	.dropdown-menu,
+	.navbar-default .navbar-nav > .open > a,
+	.navbar-default .navbar-nav > .open > a:hover,
+	.navbar-default .navbar-nav > .open > a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		background: $palette-primary_neutral-color;
+		color: $text-contrast-palette-primary-neutral-color;
+	}
+	.navbar-default .navbar-toggle {
+		background: $palette-primary-neutral-color;
+		border-color: $palette-primary_1;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: $text-contrast-palette-primary-neutral-color;
+	}
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
+		background: $palette-primary_1;
+	}
+	.navbar-default .navbar-toggle:hover .icon-bar,
+	.navbar-default .navbar-toggle:focus .icon-bar {
+		background-color: $text-contrast-palette-primary_1;
+	}
+	.has-submenu .sub-arrow:hover,
+	.has-submenu .sub-arrow:focus {
+		color: $text-contrast-palette-primary_1;
+	}
+
+	/*-----------------------------------------------
+	## Comments
+	-----------------------------------------------*/
+	.panel,
+	.panel-body,
+	.panel-footer,
+	.panel-default > .panel-heading {
+		background-color: $palette-primary-neutral-color;
+		color: $text-contrast-palette-primary-neutral-color;
+	}
+	.panel-default > .panel-heading .media-heading {
+		color: $palette-primary_1;
+	}
+
+	/*-----------------------------------------------
+	## Posts
+	-----------------------------------------------*/
+	&.archive .site-content,
+	&.archive .site-header,
+	&.single .site-content,
+	&.single .site-header,
+	&.blog .site-content,
+	&.blog .site-header  {
+		background: $palette-primary-neutral-color;
+		color: $text-contrast-palette-primary-neutral-color;
+	}
+
+	/*-----------------------------------------------
+	## Widgets
+	-----------------------------------------------*/
+	.well {
+		background: $palette-primary_5;
+		color: $text-contrast-palette-primary_5;
+	}
+	.widget.well a {
+		color: $text-contrast-palette-primary_5;
+	}
+	.widget .nav > li > a:hover,
+	.widget .nav > li > a:focus {
+		background: $palette-primary_neutral-color;
+		color: $palette-primary_2;
+	}
+	.widget_calendar .table-striped > tbody > tr:nth-of-type(2n+1) {
+			background-color: $text-contrast-palette-primary_5;
+			color: $palette-primary_5;
+	}
+	.widget_calendar #today {
+		color: $palette-primary_2;
+	}
+	#header-widget-area .widget-title,
+	#header-widget-area caption,
+	#footer-widget-area .widget-title,
+	#footer-widget-area caption {
+		color: $text-contrast-palette-primary_5;
+	}
+
+	/*-----------------------------------------------
+	## WooCommerce
+	-----------------------------------------------*/
+	#reviews #comments ol.commentlist li .meta {
+		color: $text-contrast-palette-primary-neutral-color;
+	}
+	#reviews #comments ol.commentlist li .comment-text {
+		border: 1px solid $text-contrast-palette-primary-neutral-color;
+	}
+	mark,
+	.mark {
+		background: $palette-primary_1;
+		color: $text-contrast-palette-primary_1;
+	}
+
+	/*-----------------------------------------------
+	## Footer
+	-----------------------------------------------*/
+	.site-footer {
+		background: $palette-primary_5;
+		color: $text-contrast-palette-primary_5;
+	}
+	.site-footer a {
+		color: $text-contrast-palette-primary_5;
+	}
+	#boldgrid-sticky-push, 
+	#boldgrid-sticky-filler {
+		background-color: $palette-primary_5;
+	}
+	&.disabled-footer .site-footer {
+		background: $palette-primary-neutral-color;
+		color: $text-contrast-palette-primary-neutral-color;
+	}
+	&.disabled-footer .site-footer a {
+		color: $text-contrast-palette-primary-neutral-color;
+	}
+}
